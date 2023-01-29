@@ -1,0 +1,110 @@
+FFN|Radio|http://player.ffn.de/radioffn.mp3
+FFN|Hits|http://player.ffn.de/ffnhits.mp3
+FFN|Rockt|http://player.ffn.de/ffnrockt.mp3
+FFN|Gold|http://player.ffn.de/ffngold.mp3
+FFN|80er|http://player.ffn.de/ffn80er.mp3
+FFN|90er|http://player.ffn.de/ffn90er.mp3
+FFN|Comedy|http://player.ffn.de/ffncomedy.mp3
+FFN|Tannenbaum|http://player.ffn.de/ffntannenbaum.mp3
+FFN|Bollerwagen|http://player.ffn.de/radiobollerwagen.mp3
+
+ENERGY|Top 40|http://nrj.de/germanytop40
+ENERGY|Energy Only|http://nrj.de/madeingermany
+ENERGY|Deutsch Rap|http://nrj.de/deutschrap
+ENERGY|Lounge|http://nrj.de/lounge
+ENERGY|Hits 2000|http://nrj.de/hits2000
+ENERGY|RNB|http://nrj.de/rnb
+ENERGY|Dance|http://nrj.de/dance
+ENERGY|Hits|http://nrj.de/hits
+ENERGY|Rock|http://nrj.de/rock
+ENERGY|Extrava Dance|http://nrj.de/extravadance
+ENERGY|classic Rock|http://nrj.de/classicrock
+ENERGY|Ur Ban|http://nrj.de/urban
+ENERGY|Love|http://nrj.de/love
+ENERGY|Reggaeton|http://nrj.de/reggaeton
+ENERGY|Clubbin|http://nrj.de/clubbin
+ENERGY|Home Office|http://nrj.de/homeoffice
+ENERGY|Romantic|http://nrj.de/romantic
+ENERGY|Hits Remix|http://nrj.de/hitsremix
+ENERGY|Party Hits|http://nrj.de/partyhits
+ENERGY|Xmas|http://nrj.de/xmas
+ENERGY|eh 30|http://nrj.de/eh30
+ENERGY|funky|http://nrj.de/funky
+ENERGY|POP|http://nrj.de/pop
+ENERGY|Fitness|http://nrj.de/fitness
+ENERGY|Acoustic|http://nrj.de/acoustic
+ENERGY|Latino|http://nrj.de/latino
+ENERGY|Reggae|http://nrj.de/reggae
+ENERGY|rapus|http://nrj.de/rapus
+ENERGY|Deep House|http://nrj.de/deephouse
+ENERGY|Classica Rapus|http://nrj.de/classicrapus
+ENERGY|classic RNB|http://nrj.de/classicrnb
+ENERGY|Oriental|http://nrj.de/oriental
+ENERGY|Hits 90|http://nrj.de/hits90
+ENERGY|Hits 80|http://nrj.de/hits80
+ENERGY|Summer Hits|http://nrj.de/summerhits
+
+Sunshine Live|2000er|http://stream.sunshine-live.de/2000er/mp3-192/stream.sunshine-live.de/
+Sunshine Live|80er|https://stream.sunshine-live.de/80er/mp3-192/stream.sunshine-live.de/
+Sunshine Live|90er|https://stream.sunshine-live.de/90er/mp3-128/stream.sunshine-live.de/
+Sunshine Live|90er LIVE|https://stream.sunshine-live.de/90er-live/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Amsterdam Dance Event|https://stream.sunshine-live.de/ade18dance/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Bunker|https://stream.sunshine-live.de/amsterdam/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Avicii|https://stream.sunshine-live.de/avicii/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Classics|https://stream.sunshine-live.de/classics/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Club|https://stream.sunshine-live.de/club/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Depeche Mode|https://stream.sunshine-live.de/depechemode/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Drum 'n' Bass|https://stream.sunshine-live.de/dnb/mp3-192/stream.sunshine-live.de/
+Sunshine Live|EDM|https://stream.sunshine-live.de/edm/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Eurodance|https://stream.sunshine-live.de/eurodance/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Festival|https://stream.sunshine-live.de/festival/mp3-192/stream.sunshine-live.de/
+Sunshine Live|focus|https://stream.sunshine-live.de/focus/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Future Bass|https://stream.sunshine-live.de/futurebass/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Gamescom FM|https://stream.sunshine-live.de/gamescom/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Gaming|https://stream.sunshine-live.de/gaming/mp3-192/stream.sunshine-live.de/
+Sunshine Live|German Techno LIVE|https://stream.sunshine-live.de/german-live/mp3-192/stream.sunshine-live.de/
+Sunshine Live|German Techno|https://stream.sunshine-live.de/germante/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Hands Up|https://stream.sunshine-live.de/handsup/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Hard|https://stream.sunshine-live.de/hard/mp3-192/stream.sunshine-live.de/
+Sunshine Live|House|https://stream.sunshine-live.de/house/mp3-192/stream.sunshine-live.de/
+Sunshine Live|I AM RAVING|https://stream.sunshine-live.de/iamraving/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Ibiza|https://stream.sunshine-live.de/ibiza/mp3-192/stream.sunshine-live.de/
+Sunshine Live|#LIVESTREAM|http://stream.sunshine-live.de/live/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Lounge|https://stream.sunshine-live.de/lounge/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Love|https://stream.sunshine-live.de/love/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Myday|https://stream.sunshine-live.de/mayday/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Melodic Beats LIVE|https://stream.sunshine-live.de/melodic-live/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Melodic Techno|https://stream.sunshine-live.de/melodic-techno/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Mix Mission|https://stream.sunshine-live.de/mixmission/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Nature One|https://stream.sunshine-live.de/natureone/mp3-192/stream.sunshine-live.de/
+Sunshine Live|#New Hits|https://stream.sunshine-live.de/newhits/mp3-192/stream.sunshine-live.de/
+Sunshine Live|notband|https://stream.sunshine-live.de/notband/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Party|https://stream.sunshine-live.de/party/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Clubsound Berlin|https://stream.sunshine-live.de/playlist1/mp3-192/stream.sunshine-live.de/
+Sunshine Live|POP|https://stream.sunshine-live.de/pop/mp3-192/stream.sunshine-live.de/
+Sunshine Live|live and pride|https://stream.sunshine-live.de/pride/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Nighttime Chill|https://stream.sunshine-live.de/prodigy/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Quarantäne|https://stream.sunshine-live.de/quarantaene/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Snow 2018|https://stream.sunshine-live.de/raveonsnow/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Corona|https://stream.sunshine-live.de/referencefestival/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Relax|https://stream.sunshine-live.de/relax/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Remix|https://stream.sunshine-live.de/remix/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Summer Beats|https://stream.sunshine-live.de/sp2/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Tech House|https://stream.sunshine-live.de/sp4/mp3-192/stream.sunshine-live.de/
+Sunshine Live|90s Anthems|https://stream.sunshine-live.de/sp5/mp3-192/stream.sunshine-live.de/
+Sunshine Live|#Charts|https://stream.sunshine-live.de/sp6/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Afterhour|https://stream.sunshine-live.de/sp7/mp3-192/stream.sunshine-live.de/
+Sunshine Live|#Chillout|https://stream.sunshine-live.de/sp8/mp3-192/stream.sunshine-live.de/
+Sunshine Live|#Techno|https://stream.sunshine-live.de/techno/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Techno LIVE|https://stream.sunshine-live.de/technolive/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Techno Queens|https://stream.sunshine-live.de/technoqueens/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Time Warp|https://stream.sunshine-live.de/timewarp/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Trance|https://stream.sunshine-live.de/trance/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Tropical House|https://stream.sunshine-live.de/tropicalhouse/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Best of 20 years|https://stream.sunshine-live.de/twenty/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Classic & Vocal House|https://stream.sunshine-live.de/vocalhouse/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Vocal Trance|https://stream.sunshine-live.de/vocaltrance/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Peaceful Beats|https://stream.sunshine-live.de/winterchill/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Workout|https://stream.sunshine-live.de/workout/mp3-192/stream.sunshine-live.de/
+Sunshine Live|Psytrance|https://stream.sunshine-live.de/xmas/mp3-192/stream.sunshine-live.de/
+

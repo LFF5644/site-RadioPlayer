@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--CREATED: 24.06.2022 UM 17∶39-->
+<html>
+<head>
+	<?=globals.tmp_head("Radio-Player",input)?>
+	<?const iconFolder=globals.vars["folder_icon"]?>
+	<link rel=icon sizes=64x64 href="<?=iconFolder?>/RadioPlayer/radio64.png">
+	<link rel=icon sizes=32x32 href="<?=iconFolder?>/RadioPlayer/radio32.png">
+	<link rel=icon sizes=16x16 href="<?=iconFolder?>/RadioPlayer/radio16.png">
+	<link rel=manifest href=/RadioPlayer/manifest.json>
+	<style>
+		.control{
+			text-align: center;
+			padding: 5px 5px 5px 5px;
+			border-radius: 10px;
+			border-top-color: blue;
+			border-bottom-color:black;
+		}
+	</style>
+</head>
+<body>
+<center>
+<h1><?=globals.tmp_nameAsA()?> Radio-Player</h1>
+<fieldset style="max-width: 300px;">
+	<legend>Sender Auswahl</legend>
+	<p>Bitte Einen Radio Anbieter Wählen.</p>
+	<select id="sender_raw" onchange="SenderDetect('sender_raw')">
+		<option id="option_tmp0">Bitte Warten...</option>
+	</select>
+	<br>
+	<p>Bitte Wählen Sie einen Radio Sender.</p>
+	<select id="sender_list">
+		<option id="option_tmp1">Bitte zuerst Anbieter wählen..</option>
+	</select><br>
+</fieldset>
+<p>Control Radio: 
+	<button onclick="RadioMen('PLAY')" class="green control" style="margin-right: 10px">Play</button>
+	<button onclick="RadioMen('STOP')" class="red control">Stop</button>
+</p>
+<p>
+	<label>
+		Volume: <span id=span_volume>100</span><br>
+		<input type="range" value=100 min=0 max="100" oninput="
+			const volume=event.target.value;
+			GetId('span_volume').innerText=String(volume).padStart(3,'0');
+			if(radio){
+				radio.volume=volume/100;
+			}
+		">
+	</label>
+</p>
+<p>Total Played Time: <code id="timerShow">00:00:00</code></p>
+
+<footer id="footer"></footer>
+</center>
+</body>
+<script>
+const whoWebPage_sys="RadioPlayer";
+const whoWebPage_usr="Radio Player";
+let elements_senderList=[GetId("option_tmp1")];
+let elements_senderRaw=[];
+let update_timer=false;
+let radio_timer=0;
+let sender=null;
+let radio=null;
+
+function GetRadioSender(result){
+	console.log(result);
+	sender=[];
+	for(lineNow of result.split("\n")){
+		if(lineNow.includes("|")===true){
+			let lineSplit=lineNow.split("|");
+			let found=false;
+			for(s of sender){
+				if(s[0]===lineSplit[0]){
+					found=true;
+				}
+			}
+			sender.push([null,null,null]);
+			let index=sender.length-1;
+			sender[index][0]=lineSplit[0];
+			sender[index][1]=lineSplit[1];
+			sender[index][2]=lineSplit[2];
+			if(found===false){
+				let element=CreateElement("option");
+				elements_senderRaw.push(element)
+				element.innerText=lineSplit[0];
+				AppendChild(element,"sender_raw",false);
+			}
+		}
+	}
+	GetId("option_tmp0").remove();
+	SenderDetect("sender_raw");
+}
+function SenderDetect(who){
+	if(who==="sender_raw"){
+		let detected=GetId(who).value;
+		DeleteItems(elements_senderList);elements_senderList=[];
+		for(s of sender){
+			if(s[0]===detected){
+				let element=CreateElement("option");
+				element.innerText=s[1];
+				elements_senderList.push(element);
+				AppendChild(element,"sender_list",false);
+			}
+		}
+	}
+}
+function DeleteItems(list){
+	for(item of list){
+		item.remove();
+	}list=[];
+}
+function RadioMen(what="PLAY"){
+	what=ConvertText(what,0);
+	if(what==="play"){
+		try{radio.pause()}catch(e){}
+		radio=new Audio();
+		let sender_raw=GetId("sender_raw").value;
+		let sender_list=GetId("sender_list").value;
+		for(s of sender){
+			if(s[0]===sender_raw && s[1]===sender_list){
+				radio.src=s[2];
+				radio.play()
+				update_timer=true;
+				break
+			}
+		}
+	}else if(what==="stop"){
+		try{radio.pause()}catch(e){}
+		update_timer=false;
+	}
+}
+function UpdateTimer(){
+	if(update_timer===false){return}
+	var time;
+	var timeS;
+	var time_;
+	time=GetId("timerShow").innerText;
+	//00:00:00
+	time=time.split(":");
+	time[0]=Number(time[0]); //Stunden
+	time[1]=Number(time[1]); //Minuten
+	time[2]=Number(time[2]); //Secunden
+	timeS=time[2]+time[1]*60+time[0]*60*60
+	timeS+=1
+	time[2]=timeS%60
+	timeS-=timeS%60
+	timeS/=60
+	time[1]=timeS%60
+	timeS-=time[1]
+	timeS/=60
+	time[0]=timeS
+	index=-1
+	for(t of time){
+		index+=1
+		time[index]=String(t).padStart(2,0);
+	}
+	radio_timer=time[0]+":"+time[1]+":"+time[2]
+	localStorage.setItem("radio_timer",radio_timer)
+	GetId("timerShow").innerText=radio_timer;
+}
+
+radio_timer=localStorage.getItem("radio_timer");
+if(radio_timer===null){radio_timer="00:00:00"}
+GetId("timerShow").innerText=radio_timer;
+
+GetFile("/RadioPlayer/radioSender.txt",GetRadioSender);
+setInterval(UpdateTimer,1000);
+</script>
+</html>
