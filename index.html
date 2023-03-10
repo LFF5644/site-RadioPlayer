@@ -2,12 +2,12 @@
 <!--CREATED: 24.06.2022 UM 17∶39-->
 <html>
 <head>
-	<?=globals.tmp_head("Radio-Player",input)?>
+	<?=globals.tmp_head("Radio Player",input)?>
 	<?const iconFolder=globals.vars["folder_icon"]?>
 	<link rel=icon sizes=64x64 href="<?=iconFolder?>/RadioPlayer/radio64.png">
 	<link rel=icon sizes=32x32 href="<?=iconFolder?>/RadioPlayer/radio32.png">
 	<link rel=icon sizes=16x16 href="<?=iconFolder?>/RadioPlayer/radio16.png">
-	<link rel=manifest href=/RadioPlayer/manifest.json>
+	<link rel=manifest href=/p/RadioPlayer/manifest.json>
 	<meta name=mobile-web-app-capable content=yes>
 	<meta name=apple-mobile-web-app-capable content=yes>
 	<meta name=apple-mobile-web-app-title content=Radio-Player>
@@ -167,14 +167,14 @@ function UpdateTimer(){
 }
 
 if(navigator.serviceWorker){
-	navigator.serviceWorker.register("/service-worker.js");
+	navigator.serviceWorker.register("/RadioPlayer/service-worker.js",{scope:"/RadioPlayer/"});
 }
 
 radio_timer=localStorage.getItem("radio_timer");
 if(radio_timer===null){radio_timer="00:00:00"}
 GetId("timerShow").innerText=radio_timer;
 
-GetFile("/RadioPlayer/radioSender.txt",GetRadioSender);
+GetFile("/p/RadioPlayer/radioSender.txt",GetRadioSender);
 setInterval(UpdateTimer,1000);
 </script>
 </html>
