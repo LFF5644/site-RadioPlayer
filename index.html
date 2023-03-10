@@ -8,6 +8,11 @@
 	<link rel=icon sizes=32x32 href="<?=iconFolder?>/RadioPlayer/radio32.png">
 	<link rel=icon sizes=16x16 href="<?=iconFolder?>/RadioPlayer/radio16.png">
 	<link rel=manifest href=/RadioPlayer/manifest.json>
+	<meta name=mobile-web-app-capable content=yes>
+	<meta name=apple-mobile-web-app-capable content=yes>
+	<meta name=apple-mobile-web-app-title content=Radio-Player>
+	<link rel=apple-touch-icon sizes=92x92 href=<?=iconFolder?>/RadioPlayer/radio.png>
+	<link rel=apple-touch-icon sizes=32x32 href=<?=iconFolder?>/RadioPlayer/radio32.png>
 	<style>
 		.control{
 			text-align: center;
@@ -65,7 +70,7 @@ let sender=null;
 let radio=null;
 
 function GetRadioSender(result){
-	console.log(result);
+	//console.log(result);
 	sender=[];
 	for(lineNow of result.split("\n")){
 		if(lineNow.includes("|")===true){
@@ -159,6 +164,10 @@ function UpdateTimer(){
 	radio_timer=time[0]+":"+time[1]+":"+time[2]
 	localStorage.setItem("radio_timer",radio_timer)
 	GetId("timerShow").innerText=radio_timer;
+}
+
+if(navigator.serviceWorker){
+	navigator.serviceWorker.register("/service-worker.js");
 }
 
 radio_timer=localStorage.getItem("radio_timer");

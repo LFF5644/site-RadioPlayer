@@ -4,24 +4,34 @@
 	"short_name":"Radio",
 	"icons":[
 		{
+			"sizes":"144x144 any",
+			"type": "image/png",
+			"src":"<?=iconFolder?>/RadioPlayer/radio144.png"
+		},
+		{
 			"sizes":"92x92",
+			"type": "image/png",
 			"src":"<?=iconFolder?>/RadioPlayer/radio.png"
 		},
 		{
 			"sizes":"64x64",
+			"type": "image/png",
 			"src":"<?=iconFolder?>/RadioPlayer/radio64.png"
 		},
 		{
 			"sizes":"32x32",
+			"type": "image/png",
 			"src":"<?=iconFolder?>/RadioPlayer/radio32.png"
 		},
 		{
 			"sizes":"16x16",
+			"type": "image/png",
 			"src":"<?=iconFolder?>/RadioPlayer/radio16.png"
 		}
 	],
 	"scope":"/RadioPlayer",
 	"start_url":"/RadioPlayer?type=app",
+	"id":"/RadioPlayer?type=app",
 	"display":"fullscreen",
 	"theme_color": "#103",
 	"background_color":"#103"
