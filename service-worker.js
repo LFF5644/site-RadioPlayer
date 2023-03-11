@@ -1,7 +1,7 @@
 const cacheName="p-RadioPlayer_v1";
 const cacheFiles=[
 	// For this Programm needed Cache
-	"/RadioPlayer",
+	"/RadioPlayer/",
 	"/p/RadioPlayer/manifest.json",
 	"/p/RadioPlayer/radioSender.txt",
 	// Images
