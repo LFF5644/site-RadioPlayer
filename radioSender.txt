@@ -108,3 +108,17 @@ Sunshine Live|Peaceful Beats|https://stream.sunshine-live.de/winterchill/mp3-192
 Sunshine Live|Workout|https://stream.sunshine-live.de/workout/mp3-192/stream.sunshine-live.de/
 Sunshine Live|Psytrance|https://stream.sunshine-live.de/xmas/mp3-192/stream.sunshine-live.de/
 
+Absolut|Hot|https://absolut-hot.live-sm.absolutradio.de/absolut-hot/stream/mp3
+Absolut|Germany|https://absolut-germany.live-sm.absolutradio.de/absolut-germany/stream/mp3
+Absolut|Top|https://absolut-top.live-sm.absolutradio.de/absolut-top/stream/mp3
+Absolut|Relax|https://absolut-relax.live-sm.absolutradio.de/absolut-relax/stream/mp3
+Absolut|Bella|https://absolut-bella.live-sm.absolutradio.de/absolut-bella/stream/mp3
+Absolut|Oldie Classics|https://absolut-oldieclassics.live-sm.absolutradio.de/absolut-oldieclassics/stream/mp3
+Absolut|Radio AI|https://absolut-ai.live-sm.absolutradio.de/absolut-ai/stream/mp3
+Absolut|80er|https://absolut-80er.live-sm.absolutradio.de/absolut-80er/stream/mp3
+Absolut|Rock|https://absolut-80er.live-sm.absolutradio.de/absolut-rock/stream/mp3
+Absolut|Coffee Music|https://absolut-coffeemusic.live-sm.absolutradio.de/absolut-coffeemusic/stream/mp3
+Absolut|Top Clubnight|https://absolut-clubnight.live-sm.absolutradio.de/absolut-clubnight/stream/mp3
+Absolut|MusicXL|https://absolut-musicxl.live-sm.absolutradio.de/absolut-musicxl/stream/mp3
+Absolut|Lovesongs|https://absolut-lovesongs.live-sm.absolutradio.de/absolut-lovesongs/stream/mp3
+Absolut|Christmas Time|https://absolut-christmastime.live-sm.absolutradio.de/absolut-christmastime/stream/mp3
